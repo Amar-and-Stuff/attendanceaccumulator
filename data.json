@@ -1,0 +1,121 @@
+{
+    "name": "nameofstudent",
+    "sem": "5",
+    "start_date": "01082022",
+    "todaysdate": "02082022",
+    "subjects": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "l1",
+        "l2",
+        "l3"
+    ],
+    "time_table": {
+        "Sunday": [],
+        "Monday": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "l1",
+            "l2",
+            "l3"
+        ],
+        "Tuesday": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "l1",
+            "l2",
+            "l3"
+        ],
+        "Wednesday": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "l1",
+            "l2",
+            "l3"
+        ],
+        "Thursday": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "l1",
+            "l2",
+            "l3"
+        ],
+        "Friday": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "l1",
+            "l2",
+            "l3"
+        ],
+        "Saturday": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "l1",
+            "l2",
+            "l3"
+        ]
+    },
+    "attendance": {
+        "s1": {
+            "classespresent": 0,
+            "totoalclasses": 1,
+            "attendancesequence": "1"
+        },
+        "s2": {
+            "classespresent": 0,
+            "totoalclasses": 1,
+            "attendancesequence": "2"
+        },
+        "s3": {
+            "classespresent": 0,
+            "totoalclasses": 1,
+            "attendancesequence": "1"
+        },
+        "s4": {
+            "classespresent": 0,
+            "totoalclasses": 1,
+            "attendancesequence": "0"
+        },
+        "s5": {
+            "classespresent": 0,
+            "totoalclasses": 1,
+            "attendancesequence": "1"
+        },
+        "l1": {
+            "classespresent": 0,
+            "totoalclasses": 1,
+            "attendancesequence": "1"
+        },
+        "l2": {
+            "classespresent": 0,
+            "totoalclasses": 1,
+            "attendancesequence": "1"
+        },
+        "l3": {
+            "classespresent": 0,
+            "totoalclasses": 1,
+            "attendancesequence": "1"
+        }
+    }
+}
