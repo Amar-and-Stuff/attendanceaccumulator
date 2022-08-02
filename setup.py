@@ -10,6 +10,10 @@ import json
     time table = {
         day : [subjects]
     }
+    periodwiseattendance = {
+        date : []
+        period : ""
+    }
     attendence = {
         sub : [no.of presents, noof working days, attendance sequence]
     }
@@ -26,6 +30,11 @@ data["time_table"] = {}
 for day in ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]:
     data["time_table"][day] = list(input("Enter "+day+" sequence : ").split())
 
+data["periodwiseattendance"] = {}
+n = int(input("Enter nubmber clases each day : "))
+data["periodwiseattendance"]["date"] = []
+for i in range(1,n+1):
+    data["periodwiseattendance"]["P"+str(i)] = ""
 data["attendance"] = {}
 for sub in data["subjects"]:
     data["attendance"][sub] = {}
