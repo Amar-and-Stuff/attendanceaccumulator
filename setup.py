@@ -14,9 +14,7 @@ import json
         date : []
         period : ""
     }
-    attendence = {
-        sub : [no.of presents, noof working days, attendance sequence]
-    }
+
 '''
 
 data = {}
@@ -35,13 +33,6 @@ n = int(input("Enter nubmber clases each day : "))
 data["periodwiseattendance"]["date"] = []
 for i in range(1,n+1):
     data["periodwiseattendance"]["P"+str(i)] = ""
-data["attendance"] = {}
-for sub in data["subjects"]:
-    data["attendance"][sub] = {}
-    data["attendance"][sub]["classespresent"] = 0
-    data["attendance"][sub]["totoalclasses"] = 0
-    data["attendance"][sub]["attendancesequence"] = ""
-
 
 
 with open("data.json",'w') as datafile:
